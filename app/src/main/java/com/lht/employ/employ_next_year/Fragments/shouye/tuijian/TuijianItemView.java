@@ -7,6 +7,7 @@ import android.util.AttributeSet;
 import android.view.View;
 
 /**
+ * 推荐页面
  * Created by LHT on 2017/12/5.
  */
 
