@@ -15,56 +15,18 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    ViewPager viewPager;
-    List<View> viewList;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        viewList=new ArrayList<>();
-        LayoutInflater inflater=getLayoutInflater().from(this);
-        viewList.add(inflater.inflate(R.layout.first,null));
-        viewList.add(inflater.inflate(R.layout.second,null));
-        initViews();
-    }
 
-    private void initViews(){
-
-        viewPager= (ViewPager) findViewById(R.id.viewPager);
-        viewPager.setAdapter(new MyAdapter());
-    }
-
-
-    class MyAdapter extends PagerAdapter{
-
-
-        @Override
-        public int getCount() {
-            return viewList.size();
-        }
-
-        @Override
-        public boolean isViewFromObject(View view, Object object) {
-            return view==object;
-        }
-
-        @Override
-        public void destroyItem(ViewGroup container, int position, Object object) {
-            super.destroyItem(container, position, object);
-            container.removeView(viewList.get(position));
-        }
-
-        @Override
-        public int getItemPosition(Object object) {
-            return super.getItemPosition(object);
-        }
-
-        @Override
-        public Object instantiateItem(ViewGroup container, int position) {
-            container.addView(viewList.get(position));
-            return viewList.get(position);
-        }
+        CustomView view= (CustomView) findViewById(R.id.testView);
+        List<PercentData> dataList=new ArrayList<>();
+        dataList.add(new PercentData(10));
+        dataList.add(new PercentData(20));
+        dataList.add(new PercentData(30));
+        dataList.add(new PercentData(40));
+        view.setData(dataList);
     }
 
 }
