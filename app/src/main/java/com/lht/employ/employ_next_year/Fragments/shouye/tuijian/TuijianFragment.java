@@ -48,13 +48,14 @@ public class TuijianFragment extends BasicFragment {
         super.onCreateView(inflater, container, savedInstanceState);
         if(content==null){
             content= (ViewGroup) inflater.inflate(R.layout.tuijian_fragment_content,container,false);
+            initData();
+            initView();
         }
         ViewGroup parent= (ViewGroup) content.getParent();
         if (parent!=null){
             parent.removeView(content);
         }
-        initData();
-        initView();
+
         return content;
     }
 
@@ -77,6 +78,13 @@ public class TuijianFragment extends BasicFragment {
         tuijianListContentContainer.setItemAnimator(new DefaultItemAnimator());
         //添加分割线
         tuijianListContentContainer.addItemDecoration(new DividerGridItemDecoration(getActivity()));
+    }
+
+    /**
+     * 向服务器请求推荐内容数据
+     */
+    private void requestData(){
+
     }
 
     class MyRecyclerAdapter extends RecyclerView.Adapter<MyRecyclerAdapter.MyHolder>{

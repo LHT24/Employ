@@ -7,9 +7,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
 
-    <path android:fillColor="@color/colorAccent"
+    <path android:fillColor="#FF4081"
         android:pathData="M180.906667 1022.293333V786.773333H0V17.066667h1024v769.706666H556.373333l-375.466666 235.52z m-109.226667-307.2h180.906667v177.493334l283.306666-177.493334h416.426667V88.746667H71.68v626.346666z"/>
 
-    <path android:fillColor="@color/colorAccent"
+    <path android:fillColor="#FF4081"
         android:pathData="M261.12 452.266667h119.466667v-119.466667h-119.466667v119.466667z m191.146667 0h119.466666v-119.466667h-119.466666v119.466667z m191.146666-119.466667v119.466667h119.466667v-119.466667h-119.466667z"/>
 </vector>
