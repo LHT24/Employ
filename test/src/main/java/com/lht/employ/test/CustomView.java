@@ -14,6 +14,7 @@ import android.view.View;
 import java.util.List;
 
 /**
+ *zidingyi
  * Created by LHT on 2017/12/5.
  */
 
@@ -45,6 +46,7 @@ public class CustomView extends View {
     private Paint mPaint = new Paint();
 
     private void initPaint(){
+
         mPaint.setColor(Color.MAGENTA);     //设置画笔颜色
         mPaint.setStyle(Paint.Style.FILL);  //设置画笔模式为填充
         mPaint.setStrokeWidth(10f);         //设置画笔宽度为10px
