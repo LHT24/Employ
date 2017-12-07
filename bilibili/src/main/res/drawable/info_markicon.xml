@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    android:width="5dp"
+    android:height="5dp"
+    android:viewportWidth="1000"
+    android:viewportHeight="1000"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <path android:fillColor="#d81e06"
+        android:pathData="M512 419.187c-51.258 0-92.813 41.555-92.813 92.813s41.555 92.813 92.813 92.813 92.813-41.555 92.813-92.813-41.555-92.813-92.813-92.813z"/>
+
+</vector>
+
+<!-- 消息提示红点标记-->

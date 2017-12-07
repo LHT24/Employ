@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@color/colorAccent"
+            android:gravity="bottom">
+
+            <TextView
+                android:id="@+id/playNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="5dp"
+                android:textColor="#ffffff"
+                android:drawableLeft="@drawable/bofangshu_icon"
+                android:drawablePadding="5dp"
+                android:textSize="12sp"
+                android:text="45W"/>
+
+            <TextView
+                android:id="@+id/recommendNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_toRightOf="@id/playNum"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                android:text="45W"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/pinglun_icon"/>
+
+            <TextView
+                android:id="@+id/duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="10dp"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                android:text="100:60"/>
+
+        </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tittle"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:lines="2"
+            android:text="qwqwewqwqewqeqwwqewqeqweqweqweqeqweqw"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:textColor="#ffffff"
+            android:ellipsize="end"
+            android:background="@color/colorPrimary"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:orientation="horizontal"
+            android:background="@color/colorAccent">
+
+            <TextView
+                android:id="@+id/recommendID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="dasdasdasdd"
+                android:textColor="#ffffff"
+                android:background="@color/orange"/>
+
+            <TextView
+                android:id="@+id/tag"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="5dp"
+                android:singleLine="true"
+                android:text="ewewewewdsadsadadasdasdsa"
+                android:textSize="12sp"
+                android:textColor="#ffffff" />
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="end">
+
+               <ImageView
+                   android:id="@+id/more"
+                   android:layout_width="13dp"
+                   android:layout_height="12dp"
+                   android:background="@drawable/more_icon"/>
+
+           </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

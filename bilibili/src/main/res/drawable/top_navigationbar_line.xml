@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    android:width="30dp"
+    android:height="10dp"
+    android:viewportWidth="1000"
+    android:viewportHeight="1000"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <path android:fillColor="#ffffff" android:pathData="M705.2947591145836 141.21142578125h3707.8857421875v556.182861328125H705.2947591145836z"/>
+</vector>
+<!-- 首页顶部导航栏文字下标横线 -->

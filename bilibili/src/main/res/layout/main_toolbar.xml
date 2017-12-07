@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp">
+
+        <LinearLayout
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:background="@drawable/userhead_bg">
+
+            <ImageView
+                android:id="@+id/userHeadImg"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/userhead_unlogin" />
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/toobar_userHead_infoMark"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="14dp"
+            android:visibility="gone"
+            android:background="@drawable/info_markicon"/>
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/toobarQRIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="170dp"
+        android:background="@drawable/toolbar_qricon" />
+
+    <ImageView
+        android:id="@+id/toolbarGameIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/toobar_gameicon"/>
+
+    <ImageView
+        android:id="@+id/toobarHuancunIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/toobar_huancun_icon"/>
+
+    <ImageView
+        android:id="@+id/toobarSousuoIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/toobar_sousuo_icon"/>
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorAccent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/topNavBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:tabIndicatorHeight="2dp"
+        app:tabTextColor="#cdcdcd"
+        app:tabSelectedTextColor="#ffffff"
+        app:tabIndicatorColor="#ffffff"
+        android:background="@color/colorAccent"
+        android:layout_marginBottom="1dp">
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/topNav_zhibo"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="@string/zhibo" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/topNav_tuijian"
+            android:layout_width="40dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:text="@string/tuijian" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/topNav_zhuifan"
+            android:layout_width="40dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:text="@string/zhuifan" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/topNav_yingshi"
+            android:layout_width="40dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:text="@string/yingshi" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/topNav_zhuanlan"
+            android:layout_width="40dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:text="@string/zhuanlan" />
+
+    </android.support.design.widget.TabLayout>
+
+
+
+</LinearLayout>
